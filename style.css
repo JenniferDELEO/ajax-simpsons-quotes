@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 80px;
+  padding-top: 20px;
+}
+
+#button-random {
+  padding: 8px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+#button-random:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+p {
+  text-align: center;
+}
+
+#simpson-quote > p:first-child {
+  text-decoration: underline;
+}
+
+img {
+  margin: 16px auto;
+  display: block;
+}

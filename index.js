@@ -1,3 +1,5 @@
+const buttonRandom = document.getElementById("button-random");
+
 function fetchSimpsonQuotesJSON() {
   const url = `https://simpsons-quotes-api.herokuapp.com/quotes/`;
   axios
@@ -16,3 +18,8 @@ function fetchSimpsonQuotesJSON() {
     });
 }
 fetchSimpsonQuotesJSON();
+
+buttonRandom.addEventListener("click", (e) => {
+  e.preventDefault();
+  fetchSimpsonQuotesJSON();
+});
